@@ -129,6 +129,8 @@ abstract class TestCase extends OrchestraTestCase
             /**
              * App configuration.
              */
+            $config->set('app.key', 'base64:'.base64_encode(str_repeat('a', 32)));
+
             $config->set('auth.providers.users', [
                 'driver' => 'eloquent',
                 'model' => \Dystcz\LunarApi\Domain\Users\Models\User::class,

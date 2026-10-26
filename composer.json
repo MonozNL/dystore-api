@@ -1,5 +1,5 @@
 {
-  "name": "dystcz/lunar-api",
+  "name": "dystcz/dystore-api",
   "description": "Lunar API",
   "keywords": [
     "dystcz",
@@ -25,22 +25,22 @@
   ],
   "require": {
     "php": "^8.2",
-    "illuminate/support": "^11.0",
-    "laravel-json-api/hashids": "^3.0",
-    "laravel-json-api/laravel": "^4.0",
-    "laravel-json-api/non-eloquent": "^4.0",
+    "illuminate/support": "^11.0|^12.0",
+    "laravel-json-api/hashids": "^3.2",
+    "laravel-json-api/laravel": "^4.0|^5.1",
+    "laravel-json-api/non-eloquent": "^4.2",
     "lunarphp/lunar": "^1.0.0-beta.16",
-    "staudenmeir/eloquent-has-many-deep": "^1.20"
+    "staudenmeir/eloquent-has-many-deep": "^1.20|^1.21"
   },
   "require-dev": {
     "barryvdh/laravel-ide-helper": "^3.0",
-    "larastan/larastan": "^2.0",
+    "larastan/larastan": "^2.0|^3.0",
     "laravel-json-api/testing": "^3.0",
     "laravel/pint": "^1.7",
-    "orchestra/testbench": "^9.0",
-    "pestphp/pest": "^2.0",
-    "pestphp/pest-plugin-faker": "^2.0",
-    "pestphp/pest-plugin-laravel": "^2.0",
+    "orchestra/testbench": "^9.0|^10.0",
+    "pestphp/pest": "^2.0|^3.0",
+    "pestphp/pest-plugin-faker": "^2.0|^3.0",
+    "pestphp/pest-plugin-laravel": "^2.0|^3.0",
     "spatie/laravel-ray": "^1.32"
   },
   "autoload": {
